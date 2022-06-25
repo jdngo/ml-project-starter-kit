@@ -1,4 +1,6 @@
-## Buld Docker Image
+Use this repo to easily set up JupyterLab in a Docker container that you can access via localhost in your browser. You can add additional libraries in requirements.txt that will be installed when building the Docker image.
+
+## Build Docker Image
 ```
 cd ml-project-starter-kit
 
