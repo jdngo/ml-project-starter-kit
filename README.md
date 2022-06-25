@@ -5,7 +5,8 @@ cd ml-project-starter-kit
 docker build -t ml-project-starter-kit .
 ```
 
-## Run Docker Contain
+## Run Docker Container
+The -v flag is used to mount a local directory to a directory on the container. So any files that are in the local directory will appear in the container directory, and vice versa.
 ```
 export mount_dir=/Users/jongo/ml-project-starter-kit/project_files
 
